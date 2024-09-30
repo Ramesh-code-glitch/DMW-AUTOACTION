@@ -1,11 +1,11 @@
 import React from "react";
-import "./Header.css"; // Importing the CSS file
-import Search from '../Searchbar/Searchbar'; // Importing the Search component
+import "./Header.css"; 
+import Search from '../Searchbar/Searchbar'; 
 
 const CarPartsBanner = () => {
   return (
     <div className="banner-container">
-      {/* Text Container */}
+      
       <div className="text-container">
         <h1>
           ALL TYPE OF <span className="highlight">CAR PARTS</span> DELIVERED
@@ -16,11 +16,11 @@ const CarPartsBanner = () => {
         </p>
 
         <div className="image-container">
-          <img src="/AA DMW.png" alt="Car Parts" />
+          <img src="/car.png" alt="Car" />
         </div>
       </div>
       
-      {/* Search Container */}
+     
       <div className="search-container">
         <Search />
       </div>

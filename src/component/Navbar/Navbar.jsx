@@ -10,50 +10,48 @@ function Navbar() {
   return (
     <div className="navbar-container">
       <div className="navbar-flex">
-        {/* Logo */}
-        <Link to="/home" className="logo">
+        
+        <Link to="/" className="logo">
           <img className="logo-img" src="/AutoAction DMW Logo.png" alt="Logo" />
         </Link>
 
         <ul className="items">
-          {/* Email Section */}
+         
           <li className="email">
             <HiMail className="icon" />
             <div>
-              <span className="text-bold">BUSINESS@MARIPOSADIGITAL.COM</span>
+              <span className="Email">BUSINESS@MARIPOSADIGITAL.COM</span>
               <br />
-              <span className="text-sm text-gray">Hour: 09:00am - 06:00pm</span>
+              <span className="text-sm">Hour: 09:00am - 06:00pm</span>
             </div>
           </li>
 
-          {/* Phone Section */}
           <li className="contact">
             <BiSolidPhoneCall className="icon" />
             <div>
-              <span className="text-bold">8617378821</span>
+              <span className="Phone">8617378821</span>
               <br />
-              <span className="text-sm text-gray">(Free Call)</span>
+              <span className="text-sm">(Free Call)</span>
             </div>
           </li>
 
-          {/* Sign-In Section */}
           <li className="singin">
             <MdAccountCircle className="icon" />
             <div>
-              <span className="text-center">
+              <span className="SingIn">
                 <Link to="/LoginPage">SIGN-IN</Link>
               </span>
               <br />
-              <span className="text-sm text-gray">Lead Area</span>
+              <span className="text-sm">Lead Area</span>
             </div>
           </li>
           <Button
             className="Supplier"
-            width="15rem"
+            width="8rem"
             text="BECOME A SUPPLIER➡"
-            height="3rem"
-            fontSize="1.0rem"
-            fontWeight="20"
+            height="2rem"
+            fontSize="0.5rem"
+            fontWeight="10"
             background="#00000"
             color="#FFFFFF"
             event={() => {

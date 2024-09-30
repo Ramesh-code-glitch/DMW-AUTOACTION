@@ -1,5 +1,5 @@
 import React from 'react';
-import './Registation.css'; // Importing the CSS file
+import './Registation.css';
 
 const SupplierBanner = () => {
   return (

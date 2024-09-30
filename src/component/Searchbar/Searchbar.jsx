@@ -29,12 +29,11 @@ const PartSearchBar = () => {
           <option value="" disabled>
             Select Make
           </option>
-          <option value="Toyota">Toyota</option>
-          <option value="Ford">Ford</option>
-          <option value="Toyota">Toyota</option>
-          <option value="Ford">Ford</option>
-          <option value="Ford">Ford</option> 
-          
+          <option value="TATA">TATA</option>
+          <option value="HONDA">HONDA</option>
+          <option value="SUZUKI">SUZUKI</option>
+          <option value="TOYOTA">TOYOTA</option>
+          <option value="MAHINDRA">MAHINDRA</option>
         </select>
 
         <select
@@ -45,12 +44,11 @@ const PartSearchBar = () => {
           <option value="" disabled>
             Select Model
           </option>
-          <option value="Corolla">Corolla</option>
-          <option value="Mustang">Mustang</option>
-          <option value="Mustang">Mustang</option>
-          <option value="Mustang">Mustang</option>
-          <option value="Mustang">Mustang</option>
-          
+          <option value="SAFARI">SAFARI</option>
+          <option value="SWIFT">SWIFT</option>
+          <option value="MOBILIO">MOBILIO</option>
+          <option value="INNOVA">INNOVA</option>
+          <option value="BOLERO">BOLERO</option>
         </select>
 
         <select
@@ -61,12 +59,11 @@ const PartSearchBar = () => {
           <option value="" disabled>
             Select Year
           </option>
-          <option value="2020">2020</option>
-          <option value="2021">2021</option>
-          <option value="2022">2022</option>
-          <option value="2023">2023</option>
-          <option value="2024">2024</option>
-          
+          <option value="2010">2010</option>
+          <option value="2011">2011</option>
+          <option value="2012">2012</option>
+          <option value="2013">2013</option>
+          <option value="2014">2014</option>
         </select>
 
         <button className="search-button" onClick={handleSearch}>
@@ -74,10 +71,10 @@ const PartSearchBar = () => {
         </button>
       </div>
 
-      <div className="footer">
+      <div className="Search-footer">
         <span>100% Genuine Used Parts</span>
         <div className="rating">
-          <span>5.0 ★★★★★</span>
+          <img src="/Glogo.png" />
         </div>
       </div>
     </div>

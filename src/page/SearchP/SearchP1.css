@@ -1,0 +1,114 @@
+.vehicle-details-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .progress-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .step {
+    width: 30px;
+    height: 30px;
+    border: 2px solid #f0ad4e;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    color: #f0ad4e;
+    font-weight: bold;
+  }
+  
+  .line {
+    width: 100px;
+    height: 2px;
+    background-color: #f0ad4e;
+    margin: 0 10px;
+  }
+  
+  .step.active {
+    background-color: #f0ad4e;
+    color: white;
+  }
+  
+  .line.active {
+    background-color: #f0ad4e;
+  }
+  
+  .search-section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+  
+  .search-parts, .vehicle-details {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 45%;
+  }
+  
+  .search-parts h4, .vehicle-details h4 {
+    margin-bottom: 10px;
+    font-size: 16px;
+    text-decoration: underline;
+  }
+  
+  .search-parts input {
+    width: calc(100% - 70px);
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  .search-parts button {
+    padding: 10px 20px;
+    background-color: #f0ad4e;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .vehicle-details .brand {
+    display: flex;
+    align-items: center;
+  }
+  
+  .vehicle-details .brand img {
+    width: 50px;
+    margin-right: 20px;
+  }
+  
+  .vehicle-details .brand div {
+    margin-right: 40px;
+  }
+  
+  .additional-info textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    resize: none;
+    min-height: 80px;
+  }
+  
+  .action-buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .back-btn, .next-btn {
+    padding: 10px 20px;
+    background-color: #f0ad4e;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
