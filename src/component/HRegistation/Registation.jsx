@@ -1,5 +1,5 @@
 import React from 'react';
-import './Registation.css';
+import './HRegistation.css';
 
 const SupplierBanner = () => {
   return (
@@ -8,7 +8,7 @@ const SupplierBanner = () => {
         <h1>Are you a professional supplier?</h1>
         <p>Boost your business with the help of Selectedusedparts marketplace</p>
       </div>
-      <a href="/" className="banner-button">REGISTER HERE</a>
+      <a href='/registation' className="banner-button">REGISTER HERE</a>
     </div>
   );
 };

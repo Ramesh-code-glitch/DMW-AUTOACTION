@@ -50,8 +50,8 @@ function Navbar() {
             width="8rem"
             text="BECOME A SUPPLIER➡"
             height="2rem"
-            fontSize="0.5rem"
-            fontWeight="10"
+            fontSize="3rem"
+            fontWeight="2rem"
             background="#00000"
             color="#FFFFFF"
             event={() => {
