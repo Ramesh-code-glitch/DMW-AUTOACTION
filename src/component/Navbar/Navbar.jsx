@@ -8,11 +8,11 @@ import Button from "../Button/Button";
 
 function Navbar() {
   return (
-    <div className="navbar-container">
-      <div className="navbar-flex">
+    <div className="div_container">
+      <div className="navbar_flex">
         
         <Link to="/" className="logo">
-          <img className="logo-img" src="/AutoAction DMW Logo.png" alt="Logo" />
+          <img className="logo_img" src="/AutoAction DMW Logo.png" alt="Logo" />
         </Link>
 
         <ul className="items">
@@ -22,7 +22,7 @@ function Navbar() {
             <div>
               <span className="Email">BUSINESS@MARIPOSADIGITAL.COM</span>
               <br />
-              <span className="text-sm">Hour: 09:00am - 06:00pm</span>
+              <span className="text_sm">Hour: 09:00am - 06:00pm</span>
             </div>
           </li>
 
@@ -38,26 +38,26 @@ function Navbar() {
           <li className="singin">
             <MdAccountCircle className="icon" />
             <div>
-              <span className="SingIn">
-                <Link to="/LoginPage">SIGN-IN</Link>
+              <span className="signin">
+                <Link to="/signin">SIGN-IN</Link>
               </span>
               <br />
-              <span className="text-sm">Lead Area</span>
+              <span className="text_sm">Lead Area</span>
             </div>
           </li>
           <Button
-            className="Supplier"
-            width="8rem"
-            text="BECOME A SUPPLIER➡"
-            height="2rem"
-            fontSize="3rem"
-            fontWeight="2rem"
-            background="#00000"
-            color="#FFFFFF"
-            event={() => {
-              navigate("/registration");
-            }}
-          />
+          className='Supplier'
+          width="12rem"
+          text="Become A Supplier➡"
+          height="2.5rem"
+          fontSize="0.5rem"
+          fontWeight="200"
+          background="#00000"
+          color="#FFFFFF"
+          event={() => {
+            navigate("/registration");
+          }}
+        />
         </ul>
       </div>
     </div>

@@ -1,17 +1,22 @@
 
-.navbar-container {
-  
-  padding: 2px;
+.div_container {
+  display: auto;
+  align-items: center;
+  font: 16px;
+  padding: 0px 16px;
   background-color: #fff;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  margin: 0px 100px;
 }
 
 
-.navbar-flex {
+.navbar_flex {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
+  width: 80%;
+  
+
+  
 }
 
 
@@ -19,7 +24,7 @@
   flex: 1;
 }
 
-.logo-img {
+.logo_img {
   width: 150px; 
   height: 50px;
 }
@@ -28,7 +33,6 @@
 .items {
   display: flex;
   list-style: none;
-  flex: 3;
   justify-content: space-around;
   align-items: center;
 }
@@ -59,27 +63,30 @@
   text-align: center;
 }
 
-.text-center {
+.text_center {
   font-weight: bold;
   color: #000;
   text-align: center;
 }
 
-.text-sm {
+.text_sm {
   font-size: 0.9rem;
   color: #666;
 }
 
 .Supplier {
-  background-color: #000000;
+  background-color: #000;
   color: #fff;
-  padding: 0.8rem 1.5rem;
-  font-size: 2rem;
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
   border: none;
   font-weight: 500;
   text-transform: uppercase;
   cursor: pointer;
-  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: -color 0.3s ease;
 }
 
 
@@ -89,7 +96,7 @@
 
 
 @media (max-width: 768px) {
-  .navbar-flex {
+  .navbar_flex {
     flex-direction: column;
     align-items: flex-start;
   }

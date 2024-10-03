@@ -34,5 +34,26 @@
   .banner-button:hover {
     background-color: #d88b0e;
   }
+
+
+
+  @media (max-width: 768px) {
+    .rbanner-container {
+      flex-direction: column;
+      text-align: center;
+      padding: 20px;
+    }
+    
+    .text-container {
+      max-width: 100%;
+      margin-bottom: 20px;
+    }
+
+    .search-container {
+      max-width: 100%;
+      
+    }
+  }
+  
   
 /*# sourceMappingURL=Registation.css.map */

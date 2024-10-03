@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import './Registation.css';  
+import './RegPage.css';  
 
-function Registation() {
+function RegPage() {
   const [formData, setFormData] = useState({
     profileImage: null,
     name: '',
@@ -35,7 +35,7 @@ function Registation() {
   return (
     <div className="register-container">
       <div className="form-header">
-        <img src="logo.png" alt="Logo" className="logo" />
+        <img src="AutoAction DMW Logo.png" alt="Logo" className="logo" />
         <h2>WANTS TO REGISTER AS A PART SUPPLIER?</h2>
         <p>Please fill the form below:</p>
       </div>
@@ -120,4 +120,4 @@ function Registation() {
   );
 }
 
-export default Registation;
+export default RegPage;

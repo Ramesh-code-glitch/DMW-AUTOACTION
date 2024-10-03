@@ -4,8 +4,8 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 10px;
-    background-color: #fffffff0;
+    padding: 30px;
+    background-color: #f4eeee;
   }
   
  
@@ -16,7 +16,7 @@
   
   .text-container h1 {
     color: black;
-    font-size: 2.5rem;
+    font-size: 2rem;
     text-align: end;
     font-weight: bold;
     padding: 2px;
@@ -55,11 +55,17 @@
     .banner-container {
       flex-direction: column;
       text-align: center;
+      padding: 20px;
     }
     
     .text-container {
       max-width: 100%;
       margin-bottom: 20px;
+    }
+
+    .search-container {
+      max-width: 100%;
+      
     }
   }
   

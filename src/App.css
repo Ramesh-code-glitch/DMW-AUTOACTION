@@ -1,77 +1,16 @@
-/* Main page styling */
-.LR-page {
-  min-height: 100vh;
-  background: url('./reg.jpg') no-repeat center center; /* Ensure the path is correct */
-  background-size: cover;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-/* Login Box and Signup Form Holder */
-.login-box, .form-holder {
-  background: rgba(255, 255, 255, 0.9);
-  padding: 20px;
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-  width: 100%;
-  max-width: 400px; /* Limit width for responsiveness */
+/* ############################## html element styling ##############################*/
+html {
+  font-size: 62.5%;
 }
 
-/* Button container to push the button to the bottom */
-.button-container {
-  display: flex;
-  justify-content: center; /* Center button */
-  margin-top: 20px; /* Add margin for spacing */
-}
-
-/* Button styling */
-.btn-success {
-  background-color: black !important; /* Make sure the button is black */
-  color: white; /* Text color */
-  padding: 10px; /* Padding for the button */
-  font-size: 14px; /* Font size */
-  width: 100%; /* Full width */
-}
-
-/* Additional styling */
-.login-box h2,
-.form-holder h2 {
-  font-size: 24px;
-  margin-bottom: 10px;
-}
-
-.login-box p,
-.form-holder p {
-  margin-bottom: 20px;
-  font-size: 14px;
-}
-
-/* Input field styling */
-.form-group {
-  margin-bottom: 15px; /* Spacing between input fields */
-}
-
-.form-control {
-  border: 1px solid #ced4da; /* Default border color */
-  border-radius: 0.25rem; /* Rounded corners */
-  padding: 10px; /* Padding for input fields */
-}
-
-/* Error message styling */
-.alert {
-  margin-bottom: 15px; /* Space before the error message */
-  color: #ff0000; /* Error message color */
-  background-color: #f8d7da; /* Light red background */
-  border-color: #f5c6cb; /* Border color for alert */
-  padding: 10px; /* Padding for alert */
-  border-radius: 5px; /* Rounded corners for alert */
-}
-
-/* Responsive adjustments */
-@media (max-width: 480px) {
-  .login-box, .form-holder {
-      padding: 15px; /* Adjust padding for small screens */
-      max-width: 90%; /* Use more width on small devices */
-  }
+body {
+  font-family: "Rajdhani", sans-serif;
 }
