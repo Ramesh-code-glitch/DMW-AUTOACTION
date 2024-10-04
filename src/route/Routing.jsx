@@ -11,7 +11,7 @@ const Routing = () => {
     <>
       <Routes>
         <Route Component={Home} path="/" element={<Home />}/>
-        <Route Component={RegPage} path="/register" element={<RegPage />}/>
+        <Route Component={RegPage} path="/regpage" element={<RegPage />}/>
         <Route Component={SignIn} path="/signin" element={<singin />}/>
         <Route Component={BusinessDetail} path="/businessdetail" element={<businessdetail />}/>
         <Route Component={BankDetail} path="/bankdetail" element={<bankdetail />}/>

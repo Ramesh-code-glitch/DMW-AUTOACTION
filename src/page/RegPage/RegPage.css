@@ -1,14 +1,14 @@
 /* RegPage.css */
 
-body {
-  font-family: Arial, sans-serif;
-
-  margin: 0;
+bg {
+ 
+  background-image: url(https://www.selectusedparts.com/public/dist/img/banner.jpg);
+  margin: 0; 
   padding: 0;
 }
 
 .register-container {
-  background-color: #fff;
+  background-color: white;
   width: 400px;
   margin: 50px auto;
   padding: 20px;

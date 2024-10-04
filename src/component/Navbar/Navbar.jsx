@@ -1,12 +1,13 @@
 import React from "react";
 import "./Navbar.css";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { HiMail } from "react-icons/hi";
 import { BiSolidPhoneCall } from "react-icons/bi";
 import { MdAccountCircle } from "react-icons/md";
 import Button from "../Button/Button";
 
 function Navbar() {
+  const navigate = useNavigate();
   return (
     <div className="div_container">
       <div className="navbar_flex">
@@ -55,7 +56,7 @@ function Navbar() {
           background="#00000"
           color="#FFFFFF"
           event={() => {
-            navigate("/registration");
+            navigate("/RegPage");
           }}
         />
         </ul>
