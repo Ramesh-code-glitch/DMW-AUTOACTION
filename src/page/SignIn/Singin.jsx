@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import axios from 'axios';
-import "./SingIn.css"
+import "./SignIn.css"
 
 function singin() {
     const [email, setEmail] = useState('');
@@ -62,7 +62,7 @@ function singin() {
                         </button>
                     </div>
                 </form>
-                <p>Don't have an account? <Link to="/register">Sign Up</Link></p>
+                <p>Don't have an account? <Link to="/Signup">Sign Up</Link></p>
             </div>
         </div>
     );

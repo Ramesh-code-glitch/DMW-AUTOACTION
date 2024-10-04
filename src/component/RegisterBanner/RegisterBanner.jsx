@@ -10,7 +10,7 @@ const RegisterBanner = () => {
         <p>Boost your business with the help of Selectedusedparts marketplace</p>
       </div>
       {/* Use Link component for client-side navigation */}
-      <Link to="/RegPage" className="banner-button">REGISTER HERE</Link>
+      <Link to="/Signup" className="banner-button">REGISTER HERE</Link>
     </div>
   );
 };

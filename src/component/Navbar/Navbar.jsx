@@ -32,7 +32,7 @@ function Navbar() {
             <div>
               <span className="Phone">8617378821</span>
               <br />
-              <span className="text-sm">(Free Call)</span>
+              <span className="text_sm">(Free Call)</span>
             </div>
           </li>
 
@@ -56,7 +56,7 @@ function Navbar() {
           background="#00000"
           color="#FFFFFF"
           event={() => {
-            navigate("/RegPage");
+            navigate("/Signup");
           }}
         />
         </ul>

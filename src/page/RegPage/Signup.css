@@ -1,13 +1,5 @@
-/* RegPage.css */
 
-bg {
- 
-  background-image: url(https://www.selectusedparts.com/public/dist/img/banner.jpg);
-  margin: 0; 
-  padding: 0;
-}
-
-.register-container {
+.register_container {
   background-color: white;
   width: 400px;
   margin: 50px auto;
@@ -16,47 +8,49 @@ bg {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.form-header {
+.form_header {
   text-align: center;
 }
 
 .logo {
   width: 100px;
   margin-bottom: 10px;
+  align-items: center;
 }
 
 h2 {
-  color: #333;
+  color: #ff8400;
   font-size: 18px;
   margin-bottom: 10px;
 }
 
 p {
-  color: #777;
+  color: #050404;
   font-size: 14px;
+  align-items: center;
 }
 
-.register-form {
+.register_form {
   display: flex;
   flex-direction: column;
 }
 
-.register-form label {
+.register_form label {
   font-size: 14px;
   color: #333;
   margin-bottom: 5px;
 }
 
-.register-form input[type="file"] {
+.register_form input[type="file"] {
   margin-bottom: 15px;
 }
 
-.form-row {
+.form_row {
   display: flex;
   justify-content: space-between;
 }
 
-.form-row input {
+.form_row input {
   width: 48%;
   padding: 10px;
   margin-bottom: 15px;
@@ -64,10 +58,10 @@ p {
   border-radius: 4px;
 }
 
-.register-form input[type="email"],
-.register-form input[type="tel"],
-.register-form input[type="text"],
-.register-form input[type="password"] {
+.register_form input[type="email"],
+.register_form input[type="tel"],
+.register_form input[type="text"],
+.register_form input[type="password"] {
   width: 100%;
   padding: 10px;
   margin-bottom: 15px;
@@ -76,7 +70,7 @@ p {
   box-sizing: border-box;
 }
 
-.register-form button {
+.register_form button {
   padding: 12px;
   background-color: #333;
   color: #fff;
@@ -87,7 +81,7 @@ p {
   transition: background-color 0.3s ease;
 }
 
-.register-form button:hover {
+.register_form button:hover {
   background-color: #555;
 }
 
