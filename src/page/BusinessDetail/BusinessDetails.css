@@ -1,1 +1,111 @@
-/*# sourceMappingURL=BusinessDetails.css.map */
+.LR-page { 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f8f9fa;  
+  padding: 20px;  
+}
+
+.form-holder {
+  background: white;  
+  padding: 20px;  
+  border-radius: 8px;  
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  
+  width: 100%;  
+  max-width: 600px;  
+  margin: 20px 0;  
+}
+
+.business-details-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;  
+  gap: 30px; 
+}
+
+.form-left,
+.form-right {
+  display: flex;
+  flex-direction: column;  
+}
+
+.form-group {
+  margin-bottom: 20px;  
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;  
+  border: 1px solid #ced4da;  
+  border-radius: 4px;  
+  font-size: 16px;  
+  transition: border-color 0.2s;  
+}
+
+.form-control:focus {
+  border-color: #007bff;  
+  outline: none;  
+}
+
+.alert {
+  margin-bottom: 15px;  
+}
+
+.button-container {
+  grid-column: span 2;  
+  display: flex;
+  justify-content: center;  
+}
+
+ 
+.btn, .form-holder .form-group input[type="submit"] {
+  background-color: #08121e;  
+  color: white;  
+  padding: 12px 8px;  
+  border: none;  
+  border-radius: 4px;  
+  cursor: pointer;  
+  font-size: 16px;  
+  transition: background-color 0.3s;  
+  width: 40%;  
+  margin: 0 auto;  
+  display: block;  
+}
+
+.btn:hover, .form-holder .form-group input[type="submit"]:hover {
+  background-color: #6ca1da;  
+}
+
+.btn:disabled, .form-holder .form-group input[type="submit"]:disabled {
+  background-color: #6c757d;  
+  cursor: not-allowed;  
+}
+
+ 
+.logo {
+  max-width: 300px;  
+  height: auto;  
+  margin-bottom: 20px;  
+}
+
+ 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+button, input, select, textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+input {
+  line-height: normal;
+}
+
+input:not([type="file"]), input:not([type="image"]), input:not([type="checkbox"]), input:not([type="radio"]) {
+  overflow-clip-margin: 0px !important;
+  overflow: clip !important;
+}

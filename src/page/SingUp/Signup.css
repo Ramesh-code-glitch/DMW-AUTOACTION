@@ -1,87 +1,95 @@
 
-.register_container {
-  background-color: white;
-  width: 400px;
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.register-container {
+  background-color: #fff;
+  justify-content: space-between;
+  height: 50%;
+  width: 50%;
   margin: 50px auto;
   padding: 20px;
-  border-radius: 8px;
+  border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.form_header {
+.form-header {
   text-align: center;
 }
 
 .logo {
   width: 100px;
   margin-bottom: 10px;
-  align-items: center;
 }
 
 h2 {
-  color: #ff8400;
+  color: #333;
   font-size: 18px;
   margin-bottom: 10px;
 }
 
 p {
-  color: #050404;
+  color: #777;
   font-size: 14px;
-  align-items: center;
 }
 
-.register_form {
+.register-form {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 
-.register_form label {
+.register-form label {
   font-size: 14px;
   color: #333;
   margin-bottom: 5px;
 }
 
-.register_form input[type="file"] {
+.register-form input[type="file"] {
   margin-bottom: 15px;
 }
 
-.form_row {
+.form-group {
   display: flex;
   justify-content: space-between;
 }
 
-.form_row input {
-  width: 48%;
+.form-row input {
+  width: 40% auto;
   padding: 10px;
   margin-bottom: 15px;
   border: 1px solid #ccc;
   border-radius: 4px;
+  justify-content: space-between;
 }
 
-.register_form input[type="email"],
-.register_form input[type="tel"],
-.register_form input[type="text"],
-.register_form input[type="password"] {
+.register-form input[type="email"],
+.register-form input[type="tel"],
+.register-form input[type="text"],
+.register-form input[type="password"] {
   width: 100%;
   padding: 10px;
   margin-bottom: 15px;
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
+ 
 }
 
-.register_form button {
+.register-form button {
   padding: 12px;
   background-color: #333;
   color: #fff;
   border: none;
-  border-radius: 4px;
+  border-radius: 20px;
   cursor: pointer;
   font-size: 16px;
   transition: background-color 0.3s ease;
 }
 
-.register_form button:hover {
+.register-form button:hover {
   background-color: #555;
 }
 

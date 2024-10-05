@@ -14,7 +14,6 @@ const Home = () => {
       <Registation />
       <FCategorie />
       <Footer />
-
     </>
   );
 };

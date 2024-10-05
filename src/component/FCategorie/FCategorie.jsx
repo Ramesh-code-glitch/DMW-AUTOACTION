@@ -3,8 +3,8 @@ import "./FCategorie.css";
 
 const FeatureCategories = () => {
   const categories = [
-    { image: "/Body-Parts.png", label: "Body Parts, Exhaust, Exterior Fittings",},
-    { image: "/Brakes.png", label: "Brakes" },
+    { image: "/Body-Parts.png", label: "Body Parts, Exhaust, Exterior Fittings", path: "/#/body" },
+    { image: "/Brakes.png", label: "Brakes", path: "/break" },
     { image: "/Electrics & Lightning.png", label: "Car Electrics and Car Lighting" },
     { image: "/Cooling-and-Heating.png", label: "Cooling & Heating" },
     { image: "/Air-bag-kits.png", label: "Dash board assy, Interior fittings, Air bag kits",},
