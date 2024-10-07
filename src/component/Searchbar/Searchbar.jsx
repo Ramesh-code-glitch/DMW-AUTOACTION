@@ -16,7 +16,7 @@ const PartSearchBar = () => {
     <div className="search-bar-container">
       <div className="dropdown-container">
         <h3>
-          Don't Get Hassel
+          Don't Get Hassle
           <br />
           Search Your Part Here
         </h3>
