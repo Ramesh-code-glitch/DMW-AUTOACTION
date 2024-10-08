@@ -48,13 +48,7 @@ function Navbar() {
           </li>
           <Button
           className='Supplier'
-          width="12rem"
           text="Become A Supplier➡"
-          height="2.5rem"
-          fontSize="0.5rem"
-          fontWeight="200"
-          background="#00000"
-          color="#FFFFFF"
           event={() => {
             navigate("/Signup");
           }}

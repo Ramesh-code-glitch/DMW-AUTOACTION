@@ -2,47 +2,38 @@
 import React from "react";
 
 const Button = ({
-  width = "17rem",
-  height = "5.5rem",
-  color = "#FFFFFF",
-  fontSize = "1.6rem",
-  cursor = "pointer",
-  fontFamily = "Inter",
-  fontWeight = "500",
-  text = "Proceed",
-  background = "#74DBFB",
-  borderRadius = "1rem",
-  lineHeight = "2.42rem",
-  textDecoration = "none",
-  letterSpacing = "0.04em",
-  border = "0.1rem solid #74DBFB",
-  alignItems = "center",
-  justifyContent = "center",
+  width = "",
+  height = "",
+  color = "",
+  lineheight= "",
+  fontSize = "",
+  fontweight= "",
+  cursor = "",
+  text = "",
+  textalign= "",
+  background = "",
+
+
   display = "flex",
   event = () => { },
 }) => {
   return (
     <button
       type="submit"
-      className="btn"
+      className="Supplier"
       style={{
         width: width,
         height: height,
         color: color,
         cursor: cursor,
-        border: border,
         fontSize: fontSize,
         background: background,
-        fontFamily: fontFamily,
-        fontWeight: fontWeight,
-        lineHeight: lineHeight,
-        letterSpacing: letterSpacing,
-        textDecoration: textDecoration,
-        text: text,
-        alignItems: alignItems,
-        justifyContent: justifyContent,
+        text: text, 
         display: display,
-        borderRadius: borderRadius,
+        fontweight: fontweight,
+        lineheight: lineheight,
+        textalign: textalign,
+       
       }}
       onClick={event}
     >

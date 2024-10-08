@@ -1,9 +1,10 @@
 import React from "react";
 import "./FCategorie.css";
 
+
 const FeatureCategories = () => {
   const categories = [
-    { image: "/Body-Parts.png", label: "Body Parts, Exhaust, Exterior Fittings", path: "/#/body" },
+    { image: "/Body-Parts.png", label: "Body Parts, Exhaust, Exterior Fittings", path:'/src/page/Search/SubCatagory1/body.jsx'},
     { image: "/Brakes.png", label: "Brakes", path: "/break" },
     { image: "/Electrics & Lightning.png", label: "Car Electrics and Car Lighting" },
     { image: "/Cooling-and-Heating.png", label: "Cooling & Heating" },

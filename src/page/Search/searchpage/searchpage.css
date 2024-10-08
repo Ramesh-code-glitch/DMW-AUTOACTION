@@ -1,0 +1,180 @@
+
+.results-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .enquiry-section {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px 10px;
+    padding: 20px;
+  }
+  
+  /* Search Parts Section */
+  .first-section {
+    width: 45%;
+  }
+  
+  .enquiry-title h5 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .title-tag {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .part-section {
+    margin-top: 10px;
+    align-items: center;
+  }
+  
+  .form-group select {
+    height: 45px;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    align-items: center;
+  }
+  
+  .btn-add-part {
+    border: 2px solid #f99b0c;
+    background: white;
+    color: #f99b0c;
+    font-weight: 600;
+    padding: 5px 25px;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+  
+  .btn-add-part:hover {
+    background-color: #aca69f;
+  }
+
+
+  .btn-back-part {
+    border: 2px solid #f99b0c;
+    background: white;
+    color: #f99b0c;
+    font-weight: 600;
+    padding: 5px 25px;
+    border-radius: 10px;
+    cursor: pointer;
+
+
+    position: absolute;
+    bottom: 0;
+    left: 50px;
+}
+.btn-back-part:hover {
+    background-color: #000000;
+  }
+  
+  .btn-next-part{
+    border: 2px solid #f99b0c;
+    background: white;
+    color: #f99b0c;
+    font-weight: 600;
+    padding: 5px 25px;
+    border-radius: 10px;
+    cursor: pointer;
+
+
+
+
+    position: absolute;
+    bottom: 0;
+    right: 600px;
+  }
+  .btn-next-part:hover {
+    background-color: #8e877f;
+  }
+  
+  
+  /* Selected Vehicle Details */
+  .second-section {
+    width: 40%;
+  }
+  
+  .vehicle-logo img {
+    width: 80px;
+    height: auto;
+  
+  }
+  
+  .vehicle-details {
+    margin-top: 10px;
+  }
+  
+  .model-section h5,
+  .year-section h5 {
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .label {
+    font-size: 14px;
+  }
+  
+  .vehicle-inner {
+    font-size: 16px;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  
+  .part-enq-sec {
+    margin-top: 20px;
+  }
+  
+  .part-preview {
+    margin-top: 15px;
+    border-top: 1px solid #eee;
+    padding-top: 10px;
+  }
+  
+  .part-preview ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .part-preview li {
+    padding: 8px 0;
+    font-size: 14px;
+  }
+  
+  .remove-border {
+    border-radius: 5px;
+  }
+  
+  textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    resize: none;
+  }
+  
+  @media (max-width: 768px) {
+    .first-section, .second-section {
+      width: 100%;
+    }
+  
+    .results-container {
+      flex-direction: column;
+    }
+  
+    .btn-add-part {
+      width: 100%;
+      margin-top: 10px;
+    }
+  }
+  

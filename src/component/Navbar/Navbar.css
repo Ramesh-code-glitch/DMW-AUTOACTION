@@ -13,10 +13,7 @@
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  text-align: center;
-  
-
-  
+  text-align: start; 
 }
 
 
@@ -75,22 +72,23 @@
 }
 
 .Supplier {
-  background-color: #000000;
-  color: #fff;
-  padding: 1rem 2rem;
-  font-size: 1.2rem;
-  border: none;
-  font-weight: 500;
+  height: 3rem;
+  width: 13rem;
+  color: white;
+  text-transform: uppercase;
+  font-family: Rajdhani;
+  font-size: 16px;
+  font-weight: 200px;
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: -color 0.3s ease;
+  background:black;
 }
 
 
 .Supplier:hover {
-  background-color: #333;
+  background-color: #b18d8d;
 }
 
 
