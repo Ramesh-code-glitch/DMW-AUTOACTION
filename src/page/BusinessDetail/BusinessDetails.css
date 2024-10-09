@@ -10,6 +10,17 @@ body {
   background-color: #f8f9fa;  
   padding: 20px;  
 }
+.logo {
+  display: block;
+  margin: 0 auto 20px auto;
+  width: 150px;
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
 
 .form-holder {
   background: white;  
@@ -27,8 +38,7 @@ body {
   gap: 30px; 
 }
 
-.form-left,
-.form-right {
+.form-left,.form-right {
   display: flex;
   flex-direction: column;  
 }

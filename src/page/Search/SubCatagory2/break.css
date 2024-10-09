@@ -1,45 +1,44 @@
 .brake-parts-container {
-    text-align: center;
-    padding: 20px;
-    background-color: #fceceb;
-  }
-  
-  .brake-parts-title {
-    font-size: 2.5rem;
-    color: #333;
-    margin-bottom: 10px;
-  }
-  
-  .brake-parts-subtitle {
-    font-size: 1.2rem;
-    color: #777;
-    margin-bottom: 30px;
-  }
-  
-  .brake-parts-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 20px;
-    justify-items: center;
-  }
-  
-  .brake-part-item {
-    background-color: white;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 10px;
-    text-align: center;
-  }
-  
-  .brake-part-image {
-    width: 100px;
-    height: auto;
-    object-fit: contain;
-    margin-bottom: 10px;
-  }
-  
-  .brake-part-name {
-    font-size: 1rem;
-    color: #333;
-  }
-  
+  text-align: center;
+  padding: 20px;
+  background-color: #fceceb;
+}
+
+.brake-parts-title {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.brake-parts-subtitle {
+  font-size: 1.2rem;
+  color: #777;
+  margin-bottom: 30px;
+}
+
+.brake-parts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  justify-items: center;
+}
+
+.brake-part-item {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  text-align: center;
+}
+
+.brake-part-image {
+  width: 100px;
+  height: auto;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+.brake-part-name {
+  font-size: 1rem;
+  color: #333;
+}

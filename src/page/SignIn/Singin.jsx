@@ -46,12 +46,12 @@ const LoginForm = () => {
                     />
                 </div>
                 <div className="forgot-password">
-                    <a href="/forgot-password">Forgot Password</a>
+                    <a href="http://localhost:5173/#/signin">Forgot Password</a>
                 </div>
                 <button type="submit">Login</button>
             </form>
             <p className="account-prompt">
-                Click <a href="/register">Here</a> if you don't have an account
+                Click <a href="http://localhost:5173/#/Signup">Here</a> if you don't have an account
             </p>
         </div>
     );

@@ -90,7 +90,7 @@ const Signup = () => {
                 <button type="submit">Register</button>
             </form>
 
-            <p>Already have an account? <a href="/login">Login Now</a></p>
+            <p>Already have an account? <a href="http://localhost:5173/#/signin">Login Now</a></p>
         </div>
     );
 };

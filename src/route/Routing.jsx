@@ -11,6 +11,7 @@ import SubCatagory1 from '../page/Search/SubCatagory1/body';
 import SubCatagory2 from '../page/Search/SubCatagory2/break';
 import SubCatagory3 from '../page/Search/SubCatagory3/elight';
 import SubCatagory4 from '../page/Search/SubCatagory4/cooling';
+import PersonalDetail from '../page/Search/PersonalDetail/personaldetail';
 
 
 
@@ -24,13 +25,13 @@ const Routing = () => {
         <Route Component={SignIn} path="/signin" element={<singin />}/>
         <Route Component={BusinessDetail} path="/businessdetail" element={<businessdetail />}/>
         <Route Component={BankDetail} path="/bankdetail" element={<bankdetail />}/>
-        <Route Component={FeatureCategories} path="/" element={<FeatureCategories />}/>
+        <Route Component={FeatureCategories} path="/featurecategories" element={<FeatureCategories />}/>
         <Route Component={searchpage} path="/searchpage" element={<searchpage/>} />
         <Route Component={SubCatagory1} path="/body" element={<body />} />
         <Route Component={SubCatagory2} path="/break" element={<break />} />
         <Route Component={SubCatagory3} path="/elight" element={<elight />} />
         <Route Component={SubCatagory4} path="/cooling" element={<cooling />} />
-      
+        <Route Component={PersonalDetail} path="/personaldetail" element={<personaldetail />}/>
       </Routes>
     </>
   );
